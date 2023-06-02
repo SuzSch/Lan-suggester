@@ -12,8 +12,6 @@ body {
   border-bottom: double rgb(36, 8, 62);
   border-top: double rgb(36, 8, 62);
   font-size: large;
-
-
 }
 
 button {
@@ -27,7 +25,7 @@ button {
 }
 
 .question {
-  font-size: 20px;
+  font-size: 25px;
   padding: 30px;
   border: 1px solid rgb(36, 8, 62);
   margin: 10px;
@@ -53,4 +51,8 @@ h1 {
 
 p {
   font-size: 14px;
+}
+
+.hidden {
+  display: none;
 }

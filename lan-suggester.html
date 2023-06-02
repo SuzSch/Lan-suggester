@@ -2,7 +2,6 @@
 <html lang="en-US">
 
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script src="js/scripts.js"></script>
   <title>What Programming Language is right for you?</title>
@@ -32,7 +31,7 @@
       <input id="metal" type="text" name="=metal">
     </div>
     <div class="question">
-      <label for="pizza"> Do you like pizza?</label>
+      <label for="pizza"> Do you like pizza? </label>
       <input id="pizza" type="radio" name="=affirmative" value="=yes" checked> 🍕🤤Yeah!
       <input id="pizza" type="radio" name="=negative" value="=no" checked> 🍕🤢Yuck!
     </div>
@@ -43,11 +42,27 @@
     <button type="submit">What is the perfect language for me?! </button>
   </form>
 
-  <div>
-
-
-
-
+  <div id="ruby" class="hidden">
+    <h2> You are best suited for Ruby!</h2>
+    <p> Fans of Ruby say it's a beautiful, artful language. Simple in appearance, but very complex inside. Just like
+      you!
+    </p>
   </div>
+
+  <div id="c#" class="hidden">
+    <h2> You are best suited for C#!</h2>
+    <p> C# language is considered a high-level language because its syntax resembles human language. You appear ro be
+      human...so this is a great fit!
+    </p>
+  </div>
+
+  <div id="python" class="hidden">
+    <h2> You are best suited for Python!</h2>
+    <p> Python is a popular programming language and it was created by Dutch programmer Guido van Rossum. What a great
+      name! Python can run on nearly any device and operating system in use today. Very versatile. Very you.
+    </p>
+  </div>
+
+
 
 </body>
