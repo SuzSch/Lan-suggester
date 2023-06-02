@@ -1,5 +1,12 @@
-function hideLanguage() {
-  document.getElementById("ruby").setAttribute("class", "hidden")
+function showRuby() {
+  return
+}
 
+function showCSharp() {
+  return
+}
+
+function showPython() {
+  return
 
 }
