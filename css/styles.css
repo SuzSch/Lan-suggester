@@ -19,7 +19,7 @@ button {
 
 .question {
   font-size: 20px;
-  padding: 50px;
+  padding: 30px;
 }
 
 label {
@@ -35,4 +35,12 @@ input {
 h1 {
   border: 10px inset rgba(124, 79, 165, 0.696);
   padding: 15px;
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+p {
+  padding-top: 5%;
+  font-size: 20px;
+
 }
