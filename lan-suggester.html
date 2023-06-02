@@ -8,7 +8,7 @@
   <title>What Programming Language is right for you?</title>
 </head>
 
-<body class="body">
+<body>
   <h1>What Programming Language is right for you?</h1>
 
   <p> Have you ever asked yourself, "I wonder what programming language is right forme?" Well, you're in luck because
@@ -17,12 +17,20 @@
 
   <form id=userQuestions>
 
-    <label for="cats"> How many cats do you have?</label>
-    <input id="cats" type="number" name="=cats">
+    <div class="question">
+      <label for="cats"> How many cats do you have?</label>
+      <input id="cats" type="number" name="=cats">
+    </div>
+    <div>
+      <label for="pizza"> Do you like pizza?</label>
+      <input id="pizza" type="radio" name="=affirmative" value="=yes" checked> Yeah! 🍕
+      <input id="pizza" type="radio" name="=negative" value="=no" checked> Yuck!
+    </div>
 
-    <label for="pizza"> Do you like pizza?</label>
-    <input id="pizza" type="radio" name="=affirmative" value="=yes" checked> Yeah! 🍕
-    <input id="pizza" type="radio" name="=negative" value="=no" checked> Yuck!
+    <div class="question">
+      <label for="metal"> Gold or Silver?</label>
+      <input id="metal" type="text" name="=metal">
+    </div>
 
 
     <button type="submit">What is the perfect language for me?!</button>
