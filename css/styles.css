@@ -5,3 +5,14 @@ body {
   text-align: center;
   background-image: url();
   background-color: rgb(7, 95, 66);
+}
+
+button {
+  margin-block: 30px;
+  font-family: Impact;
+  font-size: larger;
+  line-height: 10px;
+  background-color: blueviolet;
+  padding: 20px;
+  outline: 10px solid rgb(235, 195, 18)
+}
