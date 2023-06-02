@@ -1,5 +1,6 @@
-function showRuby() {
-  return
+function showRuby(metal, gummyBears, cat) {
+  return metal === Gold, gummyBears >= 5, cat >= 1,
+
 }
 
 function showCSharp() {
@@ -9,4 +10,7 @@ function showCSharp() {
 function showPython() {
   return
 
+}
+function bong() {
+  alert("bong");
 }
