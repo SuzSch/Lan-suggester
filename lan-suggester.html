@@ -11,38 +11,45 @@
 <body>
   <h1>What Programming Language is right for you?</h1>
 
-  <p> Have you ever asked yourself, "I wonder what programming language is right for me?" Well, you're in luck because
+  <p class="opening"> Have you ever asked yourself, "I wonder what programming language is right for me?" Well, you're
+    in luck because
     wehave come up with the ultimate quiz to guide you in your journey. Just answer a few questions below and you will
     be well on your way!</p>
 
   <form id=userQuestions>
     <div class="question">
-      <label for="favecolor"> What's your favorite color?</label>
-      <input id="favecolor" type="color" name="=favecolor">
+      <label for="cats"> How many cats do you have?</label>
+      <input id="cats" type="number" name="=cats">
     </div>
-
+    <div>
+      <label for="gummyBears"> How much do you love gummy bears? </label>
+      <p>not very much <input id="gummyBears" type="range" name="=gummyBears" max="10" min="0"> very much</p>
+    </div>
+    <div class="question">
+      <label for="metal"> Gold or Silver?</label>
+      <input id="metal" type="text" name="=metal">
+    </div>
     <div>
       <label for="pizza"> Do you like pizza?</label>
       <input id="pizza" type="radio" name="=affirmative" value="=yes" checked> 🍕🤤Yeah!
       <input id="pizza" type="radio" name="=negative" value="=no" checked> 🍕🤢Yuck!
     </div>
 
-    <div class="question">
-      <label for="cats"> How many cats do you have?</label>
-      <input id="cats" type="number" name="=cats">
-    </div>
-
-
 
     <div class="question">
-      <label for="metal"> Gold or Silver?</label>
-      <input id="metal" type="text" name="=metal">
-    </div>
-
-    <div class="question">
-      <label for="hats"> How many hats do you own?</label>
+      <label for="hats"> How many hats do you have?</label>
       <input id="hats" type="number" name="=hats">
     </div>
+
+
+
+
+
+
+
+
+
+
 
     <button type="submit">What is the perfect language for me?!</button>
   </form>
