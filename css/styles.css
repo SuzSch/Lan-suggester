@@ -11,6 +11,7 @@ body {
   padding: 20px;
   border-bottom: double rgb(36, 8, 62);
   border-top: double rgb(36, 8, 62);
+  font-size: large;
 
 
 }
@@ -28,6 +29,8 @@ button {
 .question {
   font-size: 20px;
   padding: 30px;
+  border: 1px solid rgb(36, 8, 62);
+  margin: 10px;
 }
 
 label {
@@ -45,4 +48,9 @@ h1 {
   padding: 15px;
   font-size: 50px;
   margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+p {
+  font-size: 14px;
 }
