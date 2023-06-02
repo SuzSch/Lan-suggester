@@ -1,7 +1,7 @@
 body {
   margin: 50px;
   font-family: Verdana;
-  color: darkgoldenrod;
+  color: rgb(235, 195, 18);
   text-align: center;
   background-image: url();
   background-color: rgb(7, 95, 66);
@@ -20,6 +20,19 @@ button {
 .question {
   font-size: 20px;
   padding: 50px;
+}
 
+label {
+  font-size: 25px;
+  text-align: center;
+}
 
+input {
+  background-color: rgb(36, 8, 62);
+  color: rgb(235, 195, 18);
+}
+
+h1 {
+  border: 10px inset rgba(124, 79, 165, 0.696);
+  padding: 15px;
 }
