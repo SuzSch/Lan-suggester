@@ -13,11 +13,20 @@ window.onload = function () {
     let cats = document.querySelector("input#cats").value;
     let gummyBears = document.querySelector("input#gummyBears").value;
     let metal = document.querySelector("input#metal").value;
-    let pizza = document.querySelector("input#pizza").value;
     let hats = document.querySelector("input#hats").value;
-  }
+    let pizza = document.querySelector('input[name="pizza"]:checked').value;
 
-  if (cats >= 1 && metal === "Gold", "gold") {
-    document.getElementById("ruby").removeAttribute("class")
-  }
+    if (pizza === "no") {
+      document.getElementById("whatTheHeck").removeAttribute("class");
+
+    }
+
+
+
+
+
+
+
+
+  };
 };

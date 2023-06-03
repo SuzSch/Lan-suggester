@@ -24,6 +24,10 @@ button {
   outline: 10px solid rgb(235, 195, 18)
 }
 
+p {
+  font-size: 14px;
+}
+
 .question {
   font-size: 25px;
   padding: 30px;
@@ -49,9 +53,6 @@ h1 {
   margin-bottom: 5%;
 }
 
-p {
-  font-size: 14px;
-}
 
 .hidden {
   display: none;
