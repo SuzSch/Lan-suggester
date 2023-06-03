@@ -1,16 +1,21 @@
-function showRuby(metal, gummyBears, cat) {
-  return metal === Gold, gummyBears >= 5, cat >= 1,
 
+
+function hideLang() {
+  document.getElementById("ruby").setAttribute("class", "hidden");
+  document.getElementById("c#").setAttribute("class", "hidden");
+  document.getElementById("python").setAttribute("class", "hidden")
 }
 
-function showCSharp() {
-  return
-}
+window.onload = function () {
+  document.querySelector("form").onsubmit = function (event) {
+    event.preventDefault();
+    hideLang();
+    let cats = document.querySelector("input#cats").value;
+    let gummyBears = document.querySelector("input#gummyBears").value;
+    let metal = document.querySelector("input#metal").value;
+    let pizza = document.querySelector("input#pizza").value;
+    let hats = document.querySelector("input#hats").value;
+  };
+};
 
-function showPython() {
-  return
-
-}
-function bong() {
-  alert("bong");
-}
+return metal === Gold, gummyBears >= 5, cat >= 1;
