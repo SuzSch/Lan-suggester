@@ -12,24 +12,18 @@ window.onload = function () {
   document.querySelector("form").onsubmit = function (event) {
     event.preventDefault();
     hideLang();
-    let cats = document.querySelector("input#cats").value;
-    let gummyBears = document.querySelector("input#gummyBears").value;
-    let metal = document.querySelector("input#metal").value;
-    let hats = document.querySelector("input#hats").value;
-    let pizza = document.querySelector('input#pizza').value
+    const cats = document.querySelector("input#cats").value;
+    const gummyBears = document.querySelector("input#gummyBears").value;
+    const metal = document.querySelector("input#metal").value;
+    const hats = document.querySelector("input#hats").value;
+    const sloth = document.querySelector('input#sloth').value
 
-    if (gummyBears > 5 && cats > 1) {
-      document.getElementById("python").removeAttribute("class");
-    }
-    if (hats < 3 && metal === "gold", "Gold") {
-      document.getElementById("c#").removeAttribute("class")
-    }
-    if (gummyBears < 5 && cats === 0) {
-      document.getElementById("ruby").removeAttribute("class")
-    }
-    if (pizza === "No", "no", "NO") {
-      document.getElementById("whatTheHeck").removeAttribute("class")
+    if (sloth < 10) {
+      document.getElementById("whatTheHeck").removeAttribute("class");
+    } else if (cats === 0) {
+      document.getElementById("c#").removeAttribute("class");
+    } else if (cats > 0) {
+      document.getElementById("ruby#").removeAttribute("class");
     }
   }
-
 };
