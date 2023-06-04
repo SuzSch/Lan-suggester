@@ -16,14 +16,11 @@ window.onload = function () {
     const gummyBears = document.querySelector("input#gummyBears").value;
     const metal = document.querySelector("input#metal").value;
     const hats = document.querySelector("input#hats").value;
-    const sloth = document.querySelector('input#sloth').value
+    const sloth = document.querySelector('input#sloth').value;
 
-    if (sloth < 10) {
-      document.getElementById("whatTheHeck").removeAttribute("class");
-    } else if (cats === 0) {
-      document.getElementById("c#").removeAttribute("class");
-    } else if (cats > 0) {
-      document.getElementById("ruby#").removeAttribute("class");
+    if (gummyBears > 3 || hats >= 2) {
+      document.getElementById("ruby").removeAttribute("class")
     }
-  }
+
+  };
 };
