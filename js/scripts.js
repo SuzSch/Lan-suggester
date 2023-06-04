@@ -4,7 +4,7 @@ function hideLang() {
   document.getElementById("ruby").setAttribute("class", "hidden");
   document.getElementById("c#").setAttribute("class", "hidden");
   document.getElementById("python").setAttribute("class", "hidden");
-  document.getElementById("whatTheHeck").setAttribute("class", "hidden");
+  document.getElementById("mehSloth").setAttribute("class", "hidden");
 
 }
 
@@ -18,8 +18,8 @@ window.onload = function () {
     const hats = document.querySelector("input#hats").value;
     const sloth = document.querySelector('input#sloth').value;
 
-    if (sloth < 20) {
-      document.getElementById("whatTheHeck").removeAttribute("class");
+    if (sloth < 45) {
+      document.getElementById("mehSloth").removeAttribute("class");
     } else if (age >= 40) {
       document.getElementById("c#").removeAttribute("class");
     } else if (gummyBears > 4) {
