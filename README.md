@@ -1,10 +1,10 @@
-![Tim Robinson asking if you're sure about your decision.](images/code.jpeg)
+![A blue computer screen with code in many differnt colors.](images/code.jpeg)
 
 # Programming Language Suggester
 
-#### By Suzanne Schuber
+### By Suzanne Schuber
 
-### This is a  short quiz designed to guide you to the programming language that best fits you.
+### This is a short quiz designed to guide you to the programming language that best fits you.
 
 ## Technologies Used
 
@@ -14,13 +14,15 @@
 
 ## Description
 
-Keep in mind we have only included 3 options for programming languages in our quiz.
+Fill out and submit this 5 question quiz to see what programming language is right for you. This quiz is not all inclusive and we have only included Ruby, Python and C# as options for our programming languages.
 
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop.
 * Navigate to the top level on the directory.
-* Open index.html in your browser.
+* Open lan-suggester.html in your browser.
+* Fill out survey.
+* Click submit to see which language best fits you.
 
 ## Known Bugs
 

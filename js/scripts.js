@@ -5,7 +5,7 @@ function hideLang() {
   document.getElementById("c#").setAttribute("class", "hidden");
   document.getElementById("python").setAttribute("class", "hidden");
   document.getElementById("mehSloth").setAttribute("class", "hidden");
-
+  document.getElementById("tryAgain").setAttribute("class", "hidden");
 }
 
 window.onload = function () {
@@ -18,16 +18,20 @@ window.onload = function () {
     const hats = document.querySelector("input#hats").value;
     const sloth = document.querySelector('input#sloth').value;
 
-    if (sloth < 45) {
-      document.getElementById("mehSloth").removeAttribute("class");
-    } else if (age >= 40) {
-      document.getElementById("c#").removeAttribute("class");
-    } else if (gummyBears > 4) {
-      document.getElementById("ruby").removeAttribute("class");
-    } else if (cats >= 1 || hats >= 1) {
-      document.getElementById("python").removeAttribute("class");
+    if (!cats || !age || !hats) {
+      document.getElementById("tryAgain").removeAttribute("class");
     } else {
-      document.getElementById("c#").removeAttribute("class");
+      if (sloth < 45) {
+        document.getElementById("mehSloth").removeAttribute("class");
+      } else if (age >= 40) {
+        document.getElementById("c#").removeAttribute("class");
+      } else if (gummyBears > 4) {
+        document.getElementById("ruby").removeAttribute("class");
+      } else if (cats >= 1 || hats >= 1) {
+        document.getElementById("python").removeAttribute("class");
+      } else {
+        document.getElementById("c#").removeAttribute("class");
+      }
     }
   };
 };
