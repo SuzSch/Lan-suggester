@@ -1,6 +1,6 @@
 ![A blue computer screen with code in many differnt colors.](images/code.jpeg)
 
-# Programming Language Suggester
+# [Programming Language Suggester](https://suzsch.github.io/Lan-suggester/)
 
 ### By Suzanne Schuber
 
