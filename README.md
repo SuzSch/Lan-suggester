@@ -1,10 +1,10 @@
 ![Tim Robinson asking if you're sure about your decision.](images/code.jpeg)
 
-# [Programming Language Suggester]
+# Programming Language Suggester
 
 #### By Suzanne Schuber
 
-#### This is a  short quiz designed to guide you to the programming language that best fits you.
+### This is a  short quiz designed to guide you to the programming language that best fits you.
 
 ## Technologies Used
 
