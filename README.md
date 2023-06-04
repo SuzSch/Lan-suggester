@@ -20,7 +20,7 @@ Fill out and submit this 5 question quiz to see what programming language is rig
 
 * Clone this repository to your desktop.
 * Navigate to the top level on the directory.
-* Open lan-suggester.html in your browser.
+* Open index.html in your browser.
 * Fill out survey.
 * Click submit to see which language best fits you.
 
